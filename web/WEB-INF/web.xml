@@ -7,7 +7,7 @@
 
     <servlet>
         <servlet-name>userServlet</servlet-name>
-        <servlet-class>com.atguigu.web.UserServlet</servlet-class>
+        <servlet-class>com.KrisZhao.web.UserServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>userServlet</servlet-name>
@@ -17,7 +17,7 @@
 
     <servlet>
         <servlet-name>BookServlet</servlet-name>
-        <servlet-class>com.atguigu.web.BookServlet</servlet-class>
+        <servlet-class>com.KrisZhao.web.BookServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>BookServlet</servlet-name>
@@ -27,7 +27,7 @@
 
     <servlet>
         <servlet-name>ClientBookServlet</servlet-name>
-        <servlet-class>com.atguigu.web.ClientBookServlet</servlet-class>
+        <servlet-class>com.KrisZhao.web.ClientBookServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ClientBookServlet</servlet-name>
@@ -46,7 +46,7 @@
 
     <servlet>
         <servlet-name>CartServlet</servlet-name>
-        <servlet-class>com.atguigu.web.CartServlet</servlet-class>
+        <servlet-class>com.KrisZhao.web.CartServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>CartServlet</servlet-name>
@@ -56,7 +56,7 @@
 
     <servlet>
         <servlet-name>OrderServlet</servlet-name>
-        <servlet-class>com.atguigu.web.OrderServlet</servlet-class>
+        <servlet-class>com.KrisZhao.web.OrderServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>OrderServlet</servlet-name>
@@ -65,7 +65,7 @@
 
     <filter>
         <filter-name>ManagerFilter</filter-name>
-        <filter-class>com.atguigu.filter.ManagerFilter</filter-class>
+        <filter-class>com.KrisZhao.filter.ManagerFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>ManagerFilter</filter-name>
@@ -76,7 +76,7 @@
 
     <filter>
         <filter-name>TransactionFilter</filter-name>
-        <filter-class>com.atguigu.filter.TransactionFilter</filter-class>
+        <filter-class>com.KrisZhao.filter.TransactionFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>TransactionFilter</filter-name>
